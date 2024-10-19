@@ -1,0 +1,204 @@
+
+/*INICIO - Imagem logo topo*/
+.imagem-topo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    /* ajuste o tamanho da imagem */
+    height: 100px;
+    /* ajuste o tamanho da imagem */
+    margin: 20px auto;
+    /* ajuste o espaçamento */
+}
+/*FIM - Imagem logo topo*/
+
+/*INICIO - menu topo*/
+.menu {
+    background-color: #00b1f7;
+    padding: 70px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-sair {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-sair:hover {
+    background-color: #c82333;
+}
+/*FIM - menu topo*/
+
+.btn-sair {
+    float: right;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-sair:hover {
+    background-color: #c82333;
+}
+
+.pre-tela {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.pre-tela h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #030303;
+    margin-top: 75px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pre-tela p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-modulos {
+    width: 100%;
+    padding-left: 300px;
+    margin: 0 auto;
+    /* adiciona essa linha */
+    position: absolute;
+    left: 18%;
+    text-align: center;
+    /* adiciona essa linha */
+}
+
+.list-modulos .modutos {
+    width: 20%;
+    float: left;
+    padding: 5px;
+    transition: all ease-in 0.3s;
+}
+
+.list-modulos .modutos:hover {
+    transform: scale(1.1);
+}
+
+.box-modutos {
+    background: #FFFFFF;
+    border: 1px solid #DEE8F5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgba(210, 210, 210, 0.25);
+    border-radius: 17px 17px 16px 16px;
+    border-bottom: 15px solid #0071D9;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: all ease-in 0.3s;
+}
+
+.box-modutos:hover {
+    background: #0071D9;
+}
+
+.mod-workteams {
+    border-bottom: 15px solid #ffdb00;
+}
+
+.mod-workteams:hover {
+    background: #ffdb00;
+}
+
+.img-pre-tela {
+    width: 100%;
+    height: 248px;
+    position: relative;
+    border-radius: 17px 17px 0 0;
+}
+
+/*Dogs*/
+.list-modulos .modutos .mod-bob .img-pre-tela {
+    background: #FFF url(../posLogin/imagens/dog.png) no-repeat center / cover;
+}
+
+/*Gatos*/
+.list-modulos .modutos .mod-workteams .img-pre-tela {
+    background: #FFF url(../posLogin/imagens/gatos.png) no-repeat center / cover;
+}
+
+
+.list-modulos .modutos h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    color: #323338;
+    text-align: center;
+    padding: 10px 15px 5px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list-modulos .modutos:hover h3 {
+    color: #001131;
+}
+
+.list-modulos .modutos a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #0071D9;
+    border: 1px solid #0071D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    width: 110px;
+    height: 38px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.list-modulos .modutos:hover a {
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.list-modulos .modutos span {
+    width: 100%;
+    position: absolute;
+    height: 300px;
+    top: -52px;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    margin: 0 auto;
+}
